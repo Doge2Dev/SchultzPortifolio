@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300&family=Quicksand:wght@400;700&display=swap');
+
+*
+{
+    margin : 0;
+    padding: 0;
+    font-family: 'Phudu', cursive;
+}
+
+a
+{
+    color : black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover
+{
+    color : white;
+}
+
+body
+{
+    background: black;
+}
+
+#container-card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card
+{
+    background-color: gold;
+    box-shadow: 0 0 20px yellow;
+    border-radius: 30px;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#card-logo
+{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    padding : 5%;
+}
+
+#card-buttons
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    background-color: goldenrod;
+    padding : 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius : 30px;
+    box-shadow: 10px 10px 20px black;
+    color : black;
+    text-decoration: none;
+    text-shadow: 0 0 20px black;
+}
+
+#card-button
+{
+    padding-right : 1%;
+    padding-left : 3%;
+    font-size: 30px;
+    color : black;
+    text-decoration: none;
+}
+
+#imageLogo
+{
+    display: flex;
+    justify-content: center;
+}
+#textLogo
+{
+    text-align: center;
+    margin: 2%;
+    font-size: 50px;
+    text-shadow: 0 0 20px black;
+}
+
+ion-icon
+{
+    font-size: 38px;
+}
